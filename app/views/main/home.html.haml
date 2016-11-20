@@ -1,0 +1,40 @@
+.container
+  .row
+    %hr.featurette-divider
+      .row.featurette
+        .col-md-7
+          %h2.featurette-heading
+            First featurette heading.
+            %span.text-muted It'll blow your mind.
+          %p.lead Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.
+        .col-md-5
+          %img.featurette-image.img-responsive.center-block{:alt => "Generic placeholder image", "src" => "/500_#{(Random.new.rand(4) + 1).to_s}.jpg"}/ 
+    %hr.featurette-divider  
+      .row.featurette
+        .col-lg-10.col-md-10.col-sm-10.col-xs-12.col-sm-offset-1.col-md-offset-1.col-lg-offset-1
+          %h2 We Buy: 
+          %br
+          .col-md-4.col-lg-4.col-sm-4.col-xs-6.image-grid
+            =image_tag "/1.jpg", :class => "img-responsive"
+            %br 
+            %h5 All kind of guitars in NYC
+          .col-md-4.col-lg-4.col-sm-4.col-xs-6.image-grid
+            =image_tag "/4.jpg", :class => "img-responsive"
+            %br   
+            %h5 Custom musical instruments
+          .col-md-4.col-lg-4.col-sm-4.col-xs-6.image-grid
+            =image_tag "/3.jpg", :class => "img-responsive"
+            %br   
+            %h5 All bass guitars, acoustic and electric.
+          .col-md-4.col-lg-4.col-sm-4.col-xs-6.image-grid
+            =image_tag "/2.jpg", :class => "img-responsive"
+            %br   
+            %h5 Gibson, Fender and all other amps
+          .col-md-4.col-lg-4.col-sm-4.col-xs-6.image-grid
+            =image_tag "/5.jpg", :class => "img-responsive"
+            %br   
+            %h5 Stock and custom pedal boards and pedals 
+          .col-md-4.col-lg-4.col-sm-4.col-xs-6.image-grid
+            =image_tag "/6.jpg", :class => "img-responsive"
+            %br   
+            %h5 Saxophones and others
