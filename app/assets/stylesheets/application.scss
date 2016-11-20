@@ -49,13 +49,13 @@ html, body { overflow-x: hidden; }
     }
 }
 #message-dialog-wrapper {
-    width: 85%;
+    width: 50%;
     height:550px;
     text-align: left;
-    position: fixed;
+    position: absolute;
     border-radius: 4px;
     top: 70px;
-    left: calc(50vw - (/* width */85% / 2)); 
+    left: calc(50vw - (/* width */50% / 2)); 
     z-index: 200;
     background: #ffffff;
     box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
