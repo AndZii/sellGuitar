@@ -11,6 +11,7 @@
 // about supported directives.
 //
 //= require jquery
+//= require jquery
 //= require jquery_ujs
 //= require bootstrap-sprockets
 //= require owl.carousel
@@ -22,6 +23,7 @@
 
 $(document).on('turbolinks:load', function() {
           $("#message-interupter").hide();
+    $('.dropdown-toggle').dropdown();
     $("#message-dialog-wrapper").hide();
     $("#location-wrapper").hide();
     $('#btn-send-message').click(function(){
@@ -57,6 +59,7 @@ $(function(){
     $("#message-interupter").hide();
     $("#message-dialog-wrapper").hide();
     $("#location-wrapper").hide();
+    $('.dropdown-toggle').dropdown();
     $('#btn-send-message').click(function(){
         $("#message-interupter").fadeIn(500);
         $("#message-dialog-wrapper").fadeIn(500);

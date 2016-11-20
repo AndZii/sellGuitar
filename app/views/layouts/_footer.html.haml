@@ -5,15 +5,15 @@
       %span Guitars
       NYC
     %p.footer-links
-      %a{:href => "#"} Home
+      = link_to "Home", root_path
       ·
-      %a{:href => "#"} Guitars
+      =link_to "Guitars", guitars_path
       ·
-      %a{:href => "#"} Basses
+      = link_to "Basses", basses_path
       ·
-      %a{:href => "#"} AMPs
+      = link_to "AMPs", amps_path
       ·
-      %a{:href => "#"} Pedals
+      = link_to 'Pedals', pedals_path
       ·
       %a{:href => "#"} Contact
     %p.footer-company-name WeBuyGoods.Com © 2016

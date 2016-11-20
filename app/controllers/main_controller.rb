@@ -53,7 +53,16 @@ class MainController < ApplicationController
     @description = "If you have any guitar pedals thet you are not using anymore, may be it's the best time to get rid of them. We always pay more."
     @picture = "500_1.jpg"
     render 'template'  
-  end  
+  end 
+    
+  def dj_equipment
+    @title = "Looking for place to sell your DJ equipment? We are here for you."
+    @second_title = "We buy all kinds of DJ equipment. Used and New. "
+    @third_title = "Top dollar paid for DJ items in New York. Call us right now."
+    @description = "We are your best chance to get top cash for your used and new DJ equipment. Do not waste your time, secure your money. We always pay more."
+    @picture = "500_1.jpg"
+    render 'template'  
+  end      
     
   def messages
       render json: Message.all

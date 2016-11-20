@@ -31,7 +31,9 @@ body {
 }
 html, body { overflow-x: hidden; }
 
-
+.navbar .nav {
+     overflow: visible;
+ }
 
 .toolbar-wrapper-xs {
     text-align: center;
